@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"downlevelIteration": true,
+		"module": "commonjs",
+		"noEmitOnError": false,
+		"noImplicitAny": false,
+		"sourceMap": true,
+		"target": "es5"
+	},
+	"exclude": [
+		"node_modules"
+	]
+}

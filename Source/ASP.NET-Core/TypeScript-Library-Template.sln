@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Global", ".Global", "{1F1239FE-13AD-4FE0-BCCF-5D98C3E9A813}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{271A5A13-65EA-4FE9-BAD2-B4290C0F8438}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\ReadMe.md = ..\..\ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{5401C3EF-3A65-4655-BF61-BD38A1F71151}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.gitignore = ..\..\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{409049F8-A8E6-48AD-A97E-6DE81D87688A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Samples\Application\Application.csproj", "{80DD8CD2-7224-4253-97B8-476E92ACF3E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integration-tests", "Integration-tests\Integration-tests.csproj", "{52DA58E3-2B25-4A2D-BBD7-B1E23C536E41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Project", "Project\Project.csproj", "{4389030C-579E-43C0-AAD4-D485B48A1EBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Unit-tests", "Unit-tests\Unit-tests.csproj", "{2C5C3D6A-26BF-409D-B17A-0218A8AB99EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52DA58E3-2B25-4A2D-BBD7-B1E23C536E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52DA58E3-2B25-4A2D-BBD7-B1E23C536E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52DA58E3-2B25-4A2D-BBD7-B1E23C536E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52DA58E3-2B25-4A2D-BBD7-B1E23C536E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5C3D6A-26BF-409D-B17A-0218A8AB99EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5C3D6A-26BF-409D-B17A-0218A8AB99EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5C3D6A-26BF-409D-B17A-0218A8AB99EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5C3D6A-26BF-409D-B17A-0218A8AB99EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DD8CD2-7224-4253-97B8-476E92ACF3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DD8CD2-7224-4253-97B8-476E92ACF3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DD8CD2-7224-4253-97B8-476E92ACF3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DD8CD2-7224-4253-97B8-476E92ACF3E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4389030C-579E-43C0-AAD4-D485B48A1EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4389030C-579E-43C0-AAD4-D485B48A1EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4389030C-579E-43C0-AAD4-D485B48A1EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4389030C-579E-43C0-AAD4-D485B48A1EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{271A5A13-65EA-4FE9-BAD2-B4290C0F8438} = {1F1239FE-13AD-4FE0-BCCF-5D98C3E9A813}
+		{5401C3EF-3A65-4655-BF61-BD38A1F71151} = {1F1239FE-13AD-4FE0-BCCF-5D98C3E9A813}
+		{80DD8CD2-7224-4253-97B8-476E92ACF3E3} = {409049F8-A8E6-48AD-A97E-6DE81D87688A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F78CABF9-2203-495F-90F6-B8DB9C88B2DA}
+	EndGlobalSection
+EndGlobal

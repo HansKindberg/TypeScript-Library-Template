@@ -1,0 +1,21 @@
+{
+	"author": {
+		"name": "Hans Kindberg - open source"
+	},
+	"description": "A TypeScript-library template.",
+	"devDependencies": {
+		"@types/node": "^12.12.0",
+		"typescript": "^3.6.4"
+	},
+	"license": "MIT",
+	"name": "@hanskindberg/typescript-library-template",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/HansKindberg/TypeScript-Library-Template/"
+	},
+	"scripts": {
+		"build": "tsc --build",
+		"clean": "tsc --build --clean"
+	},
+	"version": "0.0.0-alpha"
+}

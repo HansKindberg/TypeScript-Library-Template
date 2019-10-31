@@ -1,0 +1,8 @@
+{
+	"profiles": {
+		"Integration-tests": {
+			"commandName": "Project",
+			"launchBrowser": false
+		}
+	}
+}
