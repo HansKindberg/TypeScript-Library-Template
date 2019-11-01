@@ -2,7 +2,9 @@
 
 Two ways to set up solutions in Visual Studio for creating TypeScript-libraries with integration/unit tests.
 
-1. [ASP.NET Core projects](/Source/ASP.NET-Core/)
-2. [NodeJS projects](/Source/Node-JS/)
+1. [ASP.NET Core project](/Source/ASP.NET-Core/) - with the slim project format
+2. [NodeJS project](/Source/Node-JS/)
 
-I prefer using ASP.NET Core projects with separate projects for integration-tests and unit-tests.
+## Information
+
+- [Directory structure for JavaScript/Node Projects](https://gist.github.com/tracker1/59f2c13044315f88bee9/)
