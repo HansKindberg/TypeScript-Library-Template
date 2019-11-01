@@ -4,6 +4,7 @@
 	},
 	"description": "A TypeScript-library template.",
 	"devDependencies": {
+		"assert": "2.0.0",
 		"typescript": "^3.6.4"
 	},
 	"license": "MIT",

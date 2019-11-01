@@ -1,5 +1,5 @@
 import * as assert from "assert";
-import MyClass from "../../MyClass";
+import MyClass from "../../src/MyClass";
 
 // ReSharper disable InconsistentNaming
 export function Value_ShouldReturnTheCorrectValue() {

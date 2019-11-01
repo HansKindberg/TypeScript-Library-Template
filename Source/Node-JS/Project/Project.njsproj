@@ -4,7 +4,7 @@
 		<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
 		<EnableTypeScript>true</EnableTypeScript>
 		<JavaScriptTestFramework>ExportRunner</JavaScriptTestFramework>
-		<JavaScriptTestRoot>Tests\</JavaScriptTestRoot>
+		<JavaScriptTestRoot>-\test\</JavaScriptTestRoot>
 		<Name>Project</Name>
 		<OutputPath>.</OutputPath>
 		<ProjectGuid>577f330c-3486-468c-9486-19384a24ab93</ProjectGuid>
@@ -22,12 +22,15 @@
 	<PropertyGroup Condition=" '$(Configuration)' == 'Debug' " />
 	<PropertyGroup Condition=" '$(Configuration)' == 'Release' " />
 	<ItemGroup>
-		<Folder Include="Tests\" />
-		<Folder Include="Tests\Integration-tests\" />
-		<TypeScriptCompile Include="Tests\Integration-tests\MyClassTest.ts" />
-		<Folder Include="Tests\Unit-tests\" />
-		<TypeScriptCompile Include="Tests\Unit-tests\MyClassTest.ts" />
-		<TypeScriptCompile Include="MyClass.ts" />
+		<Folder Include="src\" />
+		<TypeScriptCompile Include="src\MyClass.ts" />
+		<Folder Include="test\" />
+		<Folder Include="test\integration\" />
+		<TypeScriptCompile Include="test\integration\MyClassTest.ts" />
+		<Folder Include="test\unit\" />
+		<TypeScriptCompile Include="test\unit\MyClassTest.ts" />
+		<Content Include="test\tsconfig.json" />
+		<Content Include=".npmignore" />
 		<Content Include="package.json" />
 		<Content Include="tsconfig.json" />
 	</ItemGroup>
